@@ -5,8 +5,8 @@ import GithubProvider from "next-auth/providers/github"
 import TwitterProvider from "next-auth/providers/twitter"
 import Auth0Provider from "next-auth/providers/auth0"
 
-// For more information on each option (and a full list of options) go to
-// https://next-auth.js.org/configuration/options
+// For more information on each option (and a full list of opti ons) go to
+// https://next-auth.js.org/configuration/o ptions
 export const authOptions: NextAuthOptions = {
   // https://next-auth.js.org/configuration/providers/oauth
   providers: [
