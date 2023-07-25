@@ -11,7 +11,7 @@ export default function App({
   pageProps: { session, ...pageProps },
 }: AppProps<{ session: Session }>) {
   return (
-    <SessionProvider session={session}>
+    <SessionProvider session={session} baseUrl={process.env.NEXT_PUBLIC_NEXTAUTH_BASE_URL}>
       <Component {...pageProps} />
     </SessionProvider>
   )
